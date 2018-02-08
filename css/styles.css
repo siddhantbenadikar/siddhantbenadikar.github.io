@@ -1,6 +1,9 @@
-#bg-image {
+body {
     background: url(../img/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+}
+
+#bg-overlay {
+    filter: brightness(50%);
 }
