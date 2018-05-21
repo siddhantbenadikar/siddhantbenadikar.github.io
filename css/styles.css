@@ -1,7 +1,67 @@
-html {
+/*html {*/
+    /*background: url(../img/bg-darker.jpg) no-repeat center center fixed;*/
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
+/*}*/
+
+.content {
+    margin: 0 auto;
     background: url(../img/bg-darker.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navigation {
+    width: 100%;
+    height: fit-content;
+}
+
+.navigation-inner {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    width: fit-content;
+    text-decoration: none;
+}
+
+.logo-img {
+    width: 100px;
+    height: 100px;
+    background-size: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.social {
+    width: auto;
+}
+
+.social-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.social-links > li {
+    padding: 4px;
+}
+
+.social-links i {
+    width: 40px;
+    height: 40px;
+    background-size: 40px;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+
+    margin: auto;
 }
